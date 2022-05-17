@@ -23,7 +23,7 @@ fi
 
 set -e
 
-export DEVICE=klte
+export DEVICE=kltekdi
 export DEVICE_COMMON=msm8974-common
 export VENDOR=samsung
 

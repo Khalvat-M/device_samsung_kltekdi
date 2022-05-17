@@ -1,6 +1,6 @@
 Copyright 2022 - The Khalvat-M project
 
-Device configuration for Samsung Galaxy S5 Unified variants (SM-G900F, SM-G900M, SM-G900R4, SM-G900R7, SM-G900T, SM-G900V, SM-G900W8, SM-S902L).
+Device configuration for Samsung Galaxy S5 Japan variants (SC-04F, SCL23).
 ========================================
 
 Basic   | Specification List
@@ -19,7 +19,7 @@ Rear Camera  | 16 MP, f/2.2, 31mm, phase detection autofocus, LED flash
 Front Camera | 2 MP, f/2.4, 22mm
 Release Date | February 2014
 
-![Galaxy S5](https://github.com/Khalvat-M/android_device_samsung_klte/blob/12.1/information/klte.gif)
+![Galaxy S5](https://github.com/Khalvat-M/device_samsung_kltekdi/blob/12.1/information/kltekdi.gif)
 
 
 # For building Android 12.1
@@ -43,7 +43,7 @@ Release Date | February 2014
     <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="linos"/>
         
     <!--Device -->
-    <project name="device_samsung_klte" path="device/samsung/klte" remote="khalvat" />
+    <project name="device_samsung_kltekdi" path="device/samsung/kltekdi" remote="khalvat" />
     <project name="device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="khalvat" />
            
     <!--Kernel -->

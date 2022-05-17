@@ -16,9 +16,9 @@
 //
 
 cc_library_static {
-    name: "libinit_klte",
+    name: "libinit_kltekdi",
     recovery_available: true,
-    srcs: ["init_klte.cpp"],
+    srcs: ["init_kltekdi.cpp"],
     include_dirs: [
         "system/core/init",
         "system/libbase/include"
