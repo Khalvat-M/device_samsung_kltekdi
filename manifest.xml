@@ -1,0 +1,8 @@
+<manifest version="1.0" type="device" target-level="legacy">
+    <hal format="hidl">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::IRadio/slot1</fqname>
+        <fqname>@1.1::ISap/slot1</fqname>
+    </hal>
+</manifest>
