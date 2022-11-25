@@ -44,6 +44,10 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/keylayout/klte/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
     $(COMMON_PATH)/keylayout/klte/sec_touchkey.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sec_touchkey.kl
 
+# Touch features
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/kltexx/kltexx-vendor.mk)
 
